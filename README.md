@@ -9,11 +9,3 @@
 | 3 | Positive – Low Risk | income: 10000, debt: 500, age: 40, employed: true, loanAmount: 2000, loanPeriod: 12 | riskLevel = "Low Risk", riskDecision = "positive", riskPeriods = [12, 18, 24, 30, 36], status 200 OK |
 
 ---
-
-## Order API Methods
-
-| Method  | Description           | Expected Status |
-|---------|----------------------|----------------|
-| GET     | Get an order by ID    | 200 OK         |
-| PUT     | Update an order by ID | 200 OK         |
-| DELETE  | Delete an order by ID | 204            |
